@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Chat/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Болталка</h2>
+        <div id="NewMessage"></div>
+        <form id="forma">       
+            
+            <div>
+                <label for="author">Имя *
+                    <span id="authorError"></span>
+                </label>
+            </div>
+            <div>
+                <input type="text" name="author" id="author" value="" class=inputs /><img id="card" src="" alt="">
+            </div>
+            <div>
+                <label for="avatar">Аватар *
+                    <span id="authorError"></span>
+                </label>
+            </div>
+            <div>
+                <input type="text" name="avatar" id="avatar" value="" class=inputs />
+            </div>
+           
+            <div>
+                <label for="comment">Комментарий:
+                    <span id="commentError"></span>
+                </label>
+            </div>
+            <div>
+                <textarea name="comment" id="comment" class=inputs></textarea>
+            </div>
+            <div>
+                <input name="button" type="button" id="button" value="Отправить" onclick="checkMessage();" />
+            </div>
+            <div>
+                <input name="button" type="button" id="clear" value="Очистить хранилище" onclick="Clear();" />
+            </div>
+
+        </form>
+      </div>
+    <script src="/Chat/script.js"></script>
+</body>
+</html>

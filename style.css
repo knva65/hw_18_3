@@ -1,0 +1,48 @@
+.inputs {
+    width: 250px;
+}
+
+.error {
+    color: red;
+    font-size: smaller;
+}
+
+.author {
+    color: green;
+    font-weight: bold;
+    padding-right: 10px;
+    
+}
+
+#NewMessage {
+    margin-bottom: 20px;
+}
+
+#card_1 {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#card {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+#avatar {
+    margin-bottom: 10px;
+}
+
+#author {
+    margin-bottom: 10px;
+}
+
+#clear {
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: brown;
+    border-style: none;border-radius: 6px;
+}
